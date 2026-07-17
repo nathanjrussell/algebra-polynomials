@@ -1,0 +1,2 @@
+add_executable(njr_algebra_polynomials_example polynomial_example.cpp)
+target_link_libraries(njr_algebra_polynomials_example PRIVATE njr::algebra_polynomials njr::algebra_rings)

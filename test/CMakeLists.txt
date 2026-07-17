@@ -1,0 +1,3 @@
+add_executable(njr_algebra_polynomials_test polynomial_test.cpp)
+target_link_libraries(njr_algebra_polynomials_test PRIVATE njr::algebra_polynomials njr::algebra_rings GTest::gtest_main)
+gtest_discover_tests(njr_algebra_polynomials_test TEST_PREFIX "njr_algebra_polynomials.")

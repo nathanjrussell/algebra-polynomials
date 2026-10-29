@@ -2,10 +2,10 @@
 #include <stdexcept>
 #include <vector>
 #include <gtest/gtest.h>
-#include <njr/algebra/polynomials/polynomials.hpp>
-#include <njr/algebra/rings/rings.hpp>
+#include <algebra/polynomials/polynomials.hpp>
+#include <algebra/rings/rings.hpp>
 
-using namespace njr::algebra;
+using namespace algebra;
 
 struct TestField;
 

@@ -10,9 +10,9 @@
 #include <type_traits>
 #include <utility>
 #include <vector>
-#include <njr/algebra/core/core.hpp>
+#include <algebra/core/core.hpp>
 
-namespace njr::algebra {
+namespace algebra {
 
 template<RingElement T>
 class PolynomialRing;

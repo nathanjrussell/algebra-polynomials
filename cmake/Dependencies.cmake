@@ -1,9 +1,9 @@
 include(FetchContent)
-if(NOT TARGET njr::algebra_core)
+if(NOT TARGET algebra::core)
     FetchContent_Declare(
-        njr_algebra_core
+        algebra_core
         GIT_REPOSITORY git@github.com:nathanjrussell/algebra-core.git
-        GIT_TAG 288e0f9279ca26925c79ece475d318dd100e76cb
+        GIT_TAG df491678e274372fb0a08914c61a4d504414a739
     )
-    FetchContent_MakeAvailable(njr_algebra_core)
+    FetchContent_MakeAvailable(algebra_core)
 endif()
